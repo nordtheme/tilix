@@ -16,14 +16,8 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 #### Manual
 Copy the [`nord.json`](https://github.com/arcticicestudio/nord-terminix/tree/develop/src/json/nord-json) file to the color schemes directory according to the desired installation type.
 
-**Local User**
-```
-~/.config/terminix/schemes
-```
-**Global**
-```
-/usr/share/terminix/schemes
-```
+Local: `~/.config/terminix/schemes`
+Global: `/usr/share/terminix/schemes`
 
 #### Install Script
 The included `install.sh` shell script can be used for an automated installation.  
@@ -54,6 +48,8 @@ Syntax: `install.sh [OPTIONS]`
 
 ## Development
 [![](https://img.shields.io/badge/Changelog-0.1.0-blue.svg)](https://github.com/arcticicestudio/nord-terminix/blob/v0.1.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
+
+Continuous integration builds are running at [Travis-CI](https://travis-ci.org/arcticicestudio/nord-terminix) and [Circle CI](https://circleci.com/bb/arcticicestudio/nord-terminix).
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-terminix/issues).
