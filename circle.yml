@@ -1,0 +1,21 @@
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      Circle CI Build Configuration                    +
+# project    nord-terminix                                    +
+# repository https://github.com/arcticicestudio/nord-terminix +
+# author     Arctic Ice Studio                                +
+# email      development@arcticicestudio.com                  +
+# copyright  Copyright (C) 2016                               +
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+# [References]
+# Circle CI
+#   (https://circleci.com/docs)
+machine:
+  node:
+    version: 6.1.0
+dependencies:
+  override:
+    - npm install
+test:
+  override:
+    - npm run --silent lint
