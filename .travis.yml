@@ -11,6 +11,7 @@
 # Travis CI Documentation
 #   (https://docs.travis-ci.com)
 language: node_js
+node_js: "6"
 cache:
  directories:
     - $HOME/node_modules
