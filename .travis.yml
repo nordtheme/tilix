@@ -1,0 +1,19 @@
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      Travis CI Build Configuration                    +
+# project    nord-terminix                                    +
+# repository https://github.com/arcticicestudio/nord-terminix +
+# author     Arctic Ice Studio                                +
+# email      development@arcticicestudio.com                  +
+# copyright  Copyright (C) 2016                               +
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+# [References]
+# Travis CI Documentation
+#   (https://docs.travis-ci.com)
+language: node_js
+cache:
+ directories:
+    - $HOME/node_modules
+before_script:
+  - npm install
+script: npm run --silent lint
