@@ -1,0 +1,38 @@
+{
+  "name": "nord-terminix",
+  "title": "Nord Terminix",
+  "version": "0.0.0",
+  "description": "A arctic, north-bluish clean and elegant Terminix color scheme.",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com",
+    "url": "http://arcticicestudio.com"
+  },
+  "homepage": "https://github.com/arcticicestudio/nord-terminix",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcticicestudio/nord-terminix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/nord-terminix/issues"
+  },
+  "license" : "(Apache-2.0 AND CC-BY-SA-4.0)",
+  "keywords": [
+    "nord",
+    "arctic",
+    "north",
+    "bluish",
+    "clean",
+    "elegant",
+    "terminix",
+    "color",
+    "scheme"
+  ],
+  "devDependencies": {
+    "eslint": "3.10.2",
+    "eslint-plugin-json": "1.2.0"
+  },
+  "scripts": {
+    "lint": "eslint src/json/nord.json"
+  }
+}
