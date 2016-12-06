@@ -14,7 +14,7 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 ## Getting started
 ### Installation
 #### Manual
-Copy the [`nord.json`](https://github.com/arcticicestudio/nord-terminix/tree/develop/src/json/nord-json) file to the color schemes directory according to the desired installation type.
+Copy the [`nord.json`](https://github.com/arcticicestudio/nord-terminix/blob/develop/src/json/nord.json) file to the color schemes directory according to the desired installation type.
 
 Local: `~/.config/terminix/schemes`
 Global: `/usr/share/terminix/schemes`
