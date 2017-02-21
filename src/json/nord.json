@@ -4,6 +4,7 @@
     "use-theme-colors": false,
     "foreground-color": "#D8DEE9",
     "background-color": "#2E3440",
+    "badge-color": "#88C0D0",
     "palette": [
       "#3B4252",
       "#BF616A",
