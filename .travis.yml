@@ -4,17 +4,18 @@
 # repository https://github.com/arcticicestudio/nord-terminix +
 # author     Arctic Ice Studio                                +
 # email      development@arcticicestudio.com                  +
-# copyright  Copyright (C) 2016                               +
+# copyright  Copyright (C) 2017                               +
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #
 # [References]
 # Travis CI Documentation
-#   (https://docs.travis-ci.com)
+#   (https://docs.travis-ci.com/user/languages/javascript-with-nodejs)
 language: node_js
-node_js: "6"
-cache:
- directories:
-    - $HOME/node_modules
+node_js:
+  - "6"
+  - "4"
+cache: yarn
 before_script:
-  - npm install
-script: npm run --silent lint
+  - yarn global add gulp
+  - yarn install
+script: gulp --harmony lint
