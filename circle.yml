@@ -4,18 +4,24 @@
 # repository https://github.com/arcticicestudio/nord-terminix +
 # author     Arctic Ice Studio                                +
 # email      development@arcticicestudio.com                  +
-# copyright  Copyright (C) 2016                               +
+# copyright  Copyright (C) 2017                               +
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #
 # [References]
 # Circle CI
-#   (https://circleci.com/docs)
+#   (https://circleci.com/docs/language-nodejs)
+#   (https://circleci.com/docs/yarn)
 machine:
   node:
-    version: 6.1.0
+    version: 6
+  environment:
+    PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
 dependencies:
   override:
-    - npm install
+    - yarn global add gulp
+    - yarn install
+  cache_directories:
+    - ~/.cache/yarn
 test:
   override:
-    - npm run --silent lint
+    - gulp --harmony lint
