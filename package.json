@@ -30,7 +30,10 @@
   ],
   "devDependencies": {
     "eslint": "3.15.0",
-    "eslint-plugin-json": "1.2.0"
+    "eslint-plugin-json": "1.2.0",
+    "gulp": "3.9.1",
+    "gulp-help": "1.6.1",
+    "gulp-eslint": "3.0.1"
   },
   "scripts": {
     "lint": "eslint src/json/nord.json"
