@@ -1,7 +1,7 @@
 {
   "name": "nord-terminix",
   "title": "Nord Terminix",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A arctic, north-bluish clean and elegant Terminix color scheme.",
   "author": {
     "name": "Arctic Ice Studio",
@@ -29,10 +29,10 @@
     "scheme"
   ],
   "devDependencies": {
-    "eslint": "3.10.2",
-    "eslint-plugin-json": "1.2.0"
-  },
-  "scripts": {
-    "lint": "eslint src/json/nord.json"
+    "eslint": "3.15.0",
+    "eslint-plugin-json": "1.2.0",
+    "gulp": "3.9.1",
+    "gulp-help": "1.6.1",
+    "gulp-eslint": "3.0.1"
   }
 }
