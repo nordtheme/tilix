@@ -31,6 +31,5 @@
     "use-badge-color": false,
     "use-cursor-color": false,
     "use-dim-color": false,
-    "use-highlight-color": false,
-    "use-theme-colors": false
+    "use-highlight-color": false
 }
