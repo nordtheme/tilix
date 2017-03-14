@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord-terminix"><img src="https://img.shields.io/travis/arcticicestudio/nord-terminix/develop.svg"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord-terminix"><img src="https://circleci.com/gh/arcticicestudio/nord-terminix.svg?style=shield&circle-token=eaf4cf0919257aeeb77fde037ea2274a9524d6b4"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-terminix/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-terminix.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg"/></a> <a href="https://gnunn1.github.io/terminix-web"><img src="https://img.shields.io/badge/Terminix-v1.5.0+-4C566A.svg"/></a></p>
 
-<p align="center">A arctic, north-bluish clean and elegant <a href="https://gnunn1.github.io/terminix-web">Terminix</a> color scheme.</p>
+<p align="center">An arctic, north-bluish clean and elegant <a href="https://gnunn1.github.io/terminix-web">Terminix</a> color scheme.</p>
 
 <p align="center">Designed for a fluent and clear workflow.<br>
 Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.</p>
