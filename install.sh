@@ -131,8 +131,8 @@ NORD_TERMINIX_SCRIPT_OPTS=`getopt -o vghs: --long verbose,global,help,schemefile
 COLOR_SCHEME_FILE=src/json/nord.json
 VERBOSE=false
 GLOBAL_INSTALL=false
-LOCAL_INSTALL_DIR=~/.config/terminix/schemes
-GLOBAL_INSTALL_DIR=/usr/share/terminix/schemes
+LOCAL_INSTALL_DIR=~/.config/tilix/schemes
+GLOBAL_INSTALL_DIR=/usr/share/tilix/schemes
 
 eval set -- "$NORD_TERMINIX_SCRIPT_OPTS"
 while true; do
