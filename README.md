@@ -49,7 +49,7 @@ Syntax: `install.sh [OPTIONS]`
 <p align="center"><strong>Advanced Color Settings</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tilix/develop/src/assets/scrot-feature-advanced-settings.png"/><br><strong>Badges</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tilix/develop/src/assets/scrot-feature-advanced-settings-badges.png"/></p>
 
 ## Development
-[![](https://img.shields.io/badge/Changelog-0.2.0-81A1C1.svg)](https://github.com/arcticicestudio/nord-tilix/blob/v0.2.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg)](https://github.com/arcticicestudio/arcver)
+[![](https://img.shields.io/badge/Changelog-0.3.0-81A1C1.svg)](https://github.com/arcticicestudio/nord-tilix/blob/v0.3.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg)](https://github.com/arcticicestudio/arcver)
 
 Continuous integration builds are running at [Travis-CI](https://travis-ci.org/arcticicestudio/nord-tilix) and [Circle CI](https://circleci.com/bb/arcticicestudio/nord-tilix).
 
