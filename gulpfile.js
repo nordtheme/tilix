@@ -1,12 +1,12 @@
 /*
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Project Gulp File                                +
-project    nord-terminix                                    +
-repository https://github.com/arcticicestudio/nord-terminix +
-author     Arctic Ice Studio                                +
-email      development@arcticicestudio.com                  +
-copyright  Copyright (C) 2017                               +
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Project Gulp File                             +
+project    nord-tilix                                    +
+repository https://github.com/arcticicestudio/nord-tilix +
+author     Arctic Ice Studio                             +
+email      development@arcticicestudio.com               +
+copyright  Copyright (C) 2017                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [References]
 Gulp
