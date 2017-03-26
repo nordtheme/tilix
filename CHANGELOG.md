@@ -4,6 +4,16 @@
 
 ---
 
+# 0.3.0
+*2017-03-26*
+This project has been renamed to *Nord Tilix*.  
+The upstream project [Terminix has been renamed to *Tilix* due to trademark infringement](https://github.com/gnunn1/tilix/issues/815).  
+All text occurrences- and project assets have been updated to match the new name. (@arcticicestudio, #15, d32c9906)
+
+## Bug Fixes
+### Documentation
+❯ Fixed a typo in the project description. (@arcticicestudio, #12, fd02252f)
+
 # 0.2.0
 *2017-02-21*
 ## Features
