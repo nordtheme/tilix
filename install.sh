@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# title      Install Script                                   +
-# project    nord-terminix                                    +
-# repository https://github.com/arcticicestudio/nord-terminix +
-# author     Arctic Ice Studio                                +
-# email      development@arcticicestudio.com                  +
-# copyright  Copyright (C) 2016                               +
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      Install Script                                +
+# project    nord-tilix                                    +
+# repository https://github.com/arcticicestudio/nord-tilix +
+# author     Arctic Ice Studio                             +
+# email      development@arcticicestudio.com               +
+# copyright  Copyright (C) 2017                            +
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 set -e
 
 _ct_error="\e[0;31m"
@@ -38,7 +38,7 @@ __cleanup() {
   trap '' SIGINT SIGTERM
   unset -v _ct_error _ct_success _ct_warning _ct_highlight _ct_primary _ct
   unset -v _ctb_error _ctb_success _ctb_warning _ctb_highlight _ctb_primary _ctb _c_reset
-  unset -v NORD_TERMINIX_SCRIPT_OPTS COLOR_SCHEME_FILE VERBOSE GLOBAL_INSTALL LOCAL_INSTALL
+  unset -v NORD_TILIX_SCRIPT_OPTS COLOR_SCHEME_FILE VERBOSE GLOBAL_INSTALL LOCAL_INSTALL
   unset -f __help __cleanup __log_error __log_success __log_warning __log_info
   unset -f __validate_file __local_install __global_install
 }
@@ -127,14 +127,14 @@ __validate_file() {
 
 trap "printf '${_ctb_error}User aborted.${_ctb_reset}\n' && exit 1" SIGINT SIGTERM
 
-NORD_TERMINIX_SCRIPT_OPTS=`getopt -o vghs: --long verbose,global,help,schemefile: -n 'install.sh' -- "$@"`
+NORD_TILIX_SCRIPT_OPTS=`getopt -o vghs: --long verbose,global,help,schemefile: -n 'install.sh' -- "$@"`
 COLOR_SCHEME_FILE=src/json/nord.json
 VERBOSE=false
 GLOBAL_INSTALL=false
-LOCAL_INSTALL_DIR=~/.config/terminix/schemes
-GLOBAL_INSTALL_DIR=/usr/share/terminix/schemes
+LOCAL_INSTALL_DIR=~/.config/tilix/schemes
+GLOBAL_INSTALL_DIR=/usr/share/tilix/schemes
 
-eval set -- "$NORD_TERMINIX_SCRIPT_OPTS"
+eval set -- "$NORD_TILIX_SCRIPT_OPTS"
 while true; do
   case "$1" in
     -v | --verbose ) VERBOSE=true; shift ;;

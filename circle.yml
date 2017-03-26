@@ -1,11 +1,11 @@
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# title      Circle CI Build Configuration                    +
-# project    nord-terminix                                    +
-# repository https://github.com/arcticicestudio/nord-terminix +
-# author     Arctic Ice Studio                                +
-# email      development@arcticicestudio.com                  +
-# copyright  Copyright (C) 2017                               +
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      Circle CI Build Configuration                 +
+# project    nord-tilix                                    +
+# repository https://github.com/arcticicestudio/nord-tilix +
+# author     Arctic Ice Studio                             +
+# email      development@arcticicestudio.com               +
+# copyright  Copyright (C) 2017                            +
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #
 # [References]
 # Circle CI
