@@ -1,6 +1,6 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-tilix/develop/src/assets/nord-tilix-banner.svg"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-tilix/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-tilix.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg"/></a> <a href="https://gnunn1.github.io/tilix-web"><img src="https://img.shields.io/badge/Tilix-v1.5.0+-4C566A.svg"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-tilix/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-tilix.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <a href="https://gnunn1.github.io/tilix-web"><img src="https://img.shields.io/badge/Tilix-v1.5.0+-4C566A.svg?style=flat-square"/></a></p>
 
 ---
 
