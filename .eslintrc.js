@@ -1,21 +1,18 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      ESLint Configuration                          +
-project    nord-tilix                                    +
-repository https://github.com/arcticicestudio/nord-tilix +
-author     Arctic Ice Studio                             +
-email      development@arcticicestudio.com               +
-copyright  Copyright (C) 2017                            +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2016-present Sven Greb <code@svengreb.de>
 
-[References]
-ESLint
-  http://eslint.org/docs/user-guide/configuring
-  http://eslint.org/docs/user-guide/configuring#using-configuration-files
-  http://eslint.org/docs/user-guide/configuring#specifying-environments
-  http://eslint.org/docs/user-guide/configuring#configuring-plugins
-  http://eslint.org/docs/rules
-*/
+ * Project:    Nord Tilix
+ * Repository: https://github.com/arcticicestudio/nord-tilix
+ * License:    MIT
+ * References:
+ *   http://eslint.org/docs/user-guide/configuring
+ *   http://eslint.org/docs/user-guide/configuring#using-configuration-files
+ *   http://eslint.org/docs/user-guide/configuring#specifying-environments
+ *   http://eslint.org/docs/user-guide/configuring#configuring-plugins
+ *   http://eslint.org/docs/rules
+ */
+
 module.exports = {
   "env": {
     "node": true,
