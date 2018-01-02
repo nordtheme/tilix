@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# title      Install Script                                +
-# project    nord-tilix                                    +
-# repository https://github.com/arcticicestudio/nord-tilix +
-# author     Arctic Ice Studio                             +
-# email      development@arcticicestudio.com               +
-# copyright  Copyright (C) 2017                            +
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord Tilix
+# Repository: https://github.com/arcticicestudio/nord-tilix
+# License:    MIT
+
 set -e
 
 _ct_error="\e[0;31m"

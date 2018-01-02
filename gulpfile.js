@@ -1,19 +1,15 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Project Gulp File                             +
-project    nord-tilix                                    +
-repository https://github.com/arcticicestudio/nord-tilix +
-author     Arctic Ice Studio                             +
-email      development@arcticicestudio.com               +
-copyright  Copyright (C) 2017                            +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2016-present Sven Greb <code@svengreb.de>
 
-[References]
-Gulp
-  (http://gulpjs.com)
-npmjs
-  (https://www.npmjs.com)
-*/
+ * Project:    Nord Tilix
+ * Repository: https://github.com/arcticicestudio/nord-tilix
+ * License:    MIT
+ * References:
+ *   http://gulpjs.com
+ *   https://www.npmjs.com
+ */
+
 /*+---------+
   + Imports +
   +---------+*/
