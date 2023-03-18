@@ -1,13 +1,10 @@
-#!/usr/bin/env bash
-# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
-# Project:    Nord Tilix
-# Repository: https://github.com/arcticicestudio/nord-tilix
-# License:    MIT
+# CircleCI configuration.
 # References:
-#   https://circleci.com/docs/language-nodejs
-#   https://circleci.com/docs/yarn
+#   1. https://circleci.com/docs/2.0
+#   2. https://circleci.com/docs/2.0/circleci-images/#nodejs
 
 machine:
   node:

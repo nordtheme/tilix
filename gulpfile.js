@@ -1,24 +1,17 @@
 /*
- * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2016-present Sven Greb <code@svengreb.de>
-
- * Project:    Nord Tilix
- * Repository: https://github.com/arcticicestudio/nord-tilix
- * License:    MIT
- * References:
- *   http://gulpjs.com
- *   https://www.npmjs.com
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-/*+---------+
-  + Imports +
-  +---------+*/
+/**
+ * @file Gulp configurations.
+ * @see http://gulpjs.com
+ * @see https://www.npmjs.com
+ */
+
 const gulp = require("gulp-help")(require("gulp"));
 const eslint = require("gulp-eslint");
 
-/*+-------+
-  + Tasks +
-  +-------+*/
 /**
  * Shows the help.
  *
@@ -31,9 +24,4 @@ gulp.task("default", ["help"]);
  *
  * @since 0.2.0
  */
-gulp.task("lint", "Lints the color theme JSON file", () => {
-  return gulp.src("./src/json/nord.json")
-    .pipe(eslint())
-    .pipe(eslint.format())
-    .pipe(eslint.failAfterError());
-});
+gulp.task("lint", "Lints the color theme JSON file", () => gulp.src("./src/json/nord.json").pipe(eslint()).pipe(eslint.format()).pipe(eslint.failAfterError()));

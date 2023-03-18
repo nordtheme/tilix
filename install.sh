@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
-# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
-# Project:    Nord Tilix
-# Repository: https://github.com/arcticicestudio/nord-tilix
-# License:    MIT
-
-set -e
+# nounset: Treat unset variables and parameters as an error when performing parameter expansion
+# errexit: Exit immediately if any command exits with a non-zero status
+set -o nounset -o errexit
 
 _ct_error="\e[0;31m"
 _ct_success="\e[0;32m"
@@ -26,11 +24,11 @@ _c_reset="\e[0m"
 __help() {
   printf "${_ctb}Usage: ${_ct_primary}install.sh ${_ctb_subtle}[OPTIONS]\n"
   printf "  ${_ctb_highlight}-h${_ct},${_ctb_highlight} --help                      ${_ct}Help\n"
-  printf "  ${_ctb_highlight}-v${_ct},${_ctb_highlight} --verbose                   ${_ct}Verbose output\n${_ctb_reset}"
+  printf "  ${_ctb_highlight}-v${_ct},${_ctb_highlight} --verbose                   ${_ct}Verbose output\n${_c_reset}"
   printf "  ${_ctb_highlight}-g${_ct},${_ctb_highlight} --global                    \
-${_ct}Install global\n${_ctb_reset}"
+${_ct}Install global\n${_c_reset}"
   printf "  ${_ctb_highlight}-s${_ct},${_ctb_highlight} --schemefile <SCHEME_FILE>  \
-${_ct}Use the specified scheme file\n${_ctb_reset}"
+${_ct}Use the specified scheme file\n${_c_reset}"
 }
 
 __cleanup() {
@@ -124,7 +122,7 @@ __validate_file() {
   fi
 }
 
-trap "printf '${_ctb_error}User aborted.${_ctb_reset}\n' && exit 1" SIGINT SIGTERM
+trap "printf '${_ctb_error}User aborted.${_c_reset}\n' && exit 1" SIGINT SIGTERM
 
 NORD_TILIX_SCRIPT_OPTS=`getopt -o vghs: --long verbose,global,help,schemefile: -n 'install.sh' -- "$@"`
 COLOR_SCHEME_FILE=src/json/nord.json
